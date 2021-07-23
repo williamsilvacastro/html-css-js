@@ -1,0 +1,21 @@
+h1{
+    color:chartreuse;
+
+}
+h2, h3, h4, h5, h6{
+    color :violet;
+
+}
+p{
+    color:red;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 20px;
+    text-decoration: underline;
+}
+body{
+    background-color: rgb(50, 50, 50);
+    font-family: sans-serif;
+    text-align: center;
+    
+}
