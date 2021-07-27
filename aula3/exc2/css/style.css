@@ -1,0 +1,13 @@
+#B, #C{
+    display: inline-block;
+    background-color: grey;
+}
+#B{
+    width: 300px;
+}
+#C{
+    width:660px;
+}
+#A, #D{
+    width: 660px
+}
