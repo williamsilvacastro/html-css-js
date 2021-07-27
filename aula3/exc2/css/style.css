@@ -1,13 +1,41 @@
 #B, #C{
-    display: inline-block;
-    background-color: grey;
+    padding: 5px;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: Black;
+}
+
+header{
+    background-color: blue;
+    width: 960px;
+    padding: 5px;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: Black;
+    margin: 0px auto;
 }
 #B{
+    display: inline-block;
     width: 300px;
+    background-color: blue;
 }
 #C{
-    width:660px;
+    display: inline-block;
+    width: 660px;
+    background-color: blue;
 }
-#A, #D{
-    width: 660px
+footer{
+    background-color: blue;
+    width: 960px;
+    padding: 5px;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: Black;
+    margin: 0px auto;
+}
+main{
+    width: 960px;
+    background-color: blueviolet;
+    margin: 0px auto;
+    border-width: 5px;
 }
