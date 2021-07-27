@@ -1,0 +1,10 @@
+input:focus{
+    background-color:rgb(200, 200, 200);
+}
+textarea{
+    resize:vertical;
+}
+input[submit]{
+    color:red;
+    background-color:red;
+}

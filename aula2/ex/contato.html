@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <h1>Formulário de Contato</h1>
+    <form action="">
+        <label for="nomeId">Nome:</label>
+        <input type="text" name="nome" id="nomeId" placeholder="digite seu nome" required>
+        <br>
+        <label for="sobrenomeId">sobrenome:</label>
+        <input type="text" name="sobrenome" id="sobrenomeId" placeholder="digite seu sobrenome" required>
+        <br>
+        <label for="emailId">E-mail:</label>
+        <input type="email" name="email" id="emailId" placeholder="digite seu email" required>
+        <br>
+        <label for="assuntoId">assunto:</label>
+        <select name="assunto" id="assuntoId" required>
+            <option value="">selecione</option>
+            <option value="Reclamacao">Reclamacao</option>
+            <option value="Elogio">Elogio</option>
+            <option value="feedback">feedback</option>
+        </select>
+        <h3>Genero:</h3>
+        <input type="radio" name="genero" value="masculino" id="masculinoId">
+        <label for="masculinoId">Masculino</label>
+        <br>
+        <input type="radio" name="genero" value="feminino" id="femininoId">
+        <label for="femininoId">Feminino</label>
+        <br>
+        <input type="radio" name="genero" value="prefiro não responder" id="semrespostaId">
+        <label for="semrespostaId">Prefiro não responder</label>
+        <br>
+        <h3>Passatempos</h3>
+        <input type="checkbox" name="hobbies" value="series" id="seriesId">
+        <label for="seriesId">Assistir Series</label>
+        <input type="checkbox" name="hobbies" value="hq" id="hqId">
+        <label for="hqId">Ler HQ's</label>
+        <br>
+        <input type="checkbox" name="hobbies" value="anime" id="animeId">
+        <label for="animeId">Assistir Animes</label>
+        <input type="checkbox" name="hobbies" value="manga" id="mangaId">
+        <label for="mangaId">Ler mangas</label>
+        <br>
+        <input type="checkbox" name="hobbies" value="games" id="gamesId">
+        <label for="gamesId">Games</label>
+        <input type="checkbox" name="hobbies" value="sport" id="sportsId">
+        <label for="sportsId">Praticar sports</label>
+        <br>
+        <h3>Comentarios adicionais</h3>
+        <label for="comentariosId">Deixe um recado:</label><br>
+        <textarea name="comentario" id="comentariosId" required></textarea>
+        <br>
+        <input type="submit">
+        <input type="reset" value="Excluir">
+    </form>
+</body>
+</html>
