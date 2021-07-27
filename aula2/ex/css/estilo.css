@@ -4,7 +4,8 @@ input:focus{
 textarea{
     resize:vertical;
 }
-input[submit]{
-    color:red;
+#reset:hover, #submit:hover{
+    
     background-color:red;
 }
+
