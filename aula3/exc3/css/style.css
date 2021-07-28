@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(50, 50, 80);
+}
+header{
+    background-color: grey;
+    text-align: center;
+}
+main{
+    background-color: gray;
+}
+
+footer{
+    background-color: gray;
+}
+header, main, section, footer{
+    width: 960px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: black;
+
+}
+section{
+    width: 800px;
+    text-align: justify;
+    background-color: rgb(80, 80, 100);
+}
+h1, h2{
+    text-decoration: underline;
+    font-style: italic;
+}
+mark{
+    background-color:rgb(80, 80, 100);
+}

@@ -1,0 +1,68 @@
+.lista-produtos{
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.btn-comprar{
+    color: #005866;
+    border: 1px solid #005866;
+    font-weight: bold;
+    display: block;
+    padding: 15px 0px;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: 0.3s all;
+}
+.btn-comprar:hover{
+    background-color: #005866;
+    color: white;
+}
+
+.titulo-categoria{
+    color: grey;
+    font-size: 28px;
+    font-style: italic;
+}
+.nome-produto{
+    color: #153139;
+    font-weight: bold;
+    font-family: arial, helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+.marca{
+    color: #f1a658;
+    font-weight: bold;
+}
+.item-produto{
+    font-family: arial, helvetica, sans-serif;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0px 1px 5px 0px gray;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.item-produto:hover{
+    box-shadow: 0px 1px 10px 0px gray;
+}
+.quantidade{
+    color: grey;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.precos{
+    margin-top: 30px;   
+}
+.preco-promo{
+    color: #a6192e;
+    font-weight: bold;
+}
+.preco-normal{
+    color: grey;
+    text-decoration: line-through;
+    font-weight: bold;
+}
