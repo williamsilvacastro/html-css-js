@@ -24,6 +24,7 @@ header, footer{
 }
 #B{
     width: 300px; 
+    vertical-align: top;
 }
 #C{
     width: 660px;
@@ -33,6 +34,6 @@ ul{
     font-weight: bold;
 }
 .hobbies{
-    list-style-type: none;
     text-align: center;
+    font-size: 28px;
 }
