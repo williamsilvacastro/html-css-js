@@ -12,6 +12,10 @@ main{
 footer{
     background-color: gray;
 }
+img{
+    width:20px;
+    height:20px;
+}
 header, main, section, footer{
     width: 960px;
     padding: 30px;

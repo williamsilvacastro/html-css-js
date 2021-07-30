@@ -1,0 +1,66 @@
+body{
+    background-color:rgb(183, 255, 255);
+    text-align:center;
+    margin:0 auto;
+}
+header{
+    display:flex;
+    background-color: orange;
+    width: 80%;
+    height: 40px;
+    margin:20px auto;
+    align-items: center;
+    justify-content: flex-start;
+}
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 0 1 0 0 grey;
+    border-radius: 10px;
+    background-color: rgb(224, 46, 46);
+    position: relative;
+    right: 45px;
+    width: 150px;
+    height: 40px;
+}
+.links{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+main{
+    display:flex;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(70, 165, 227);
+    width: 80%;
+    height: 41em;
+    border-radius: 3px;
+    margin: 70px auto;
+}
+article{
+    border:3px solid rgb(134, 87, 0);
+    border-radius: 3px;
+    width: 30%;
+    height: 30%;    
+    background-image: url('../images/sorvete.png');
+}
+.produto{
+    position: relative;
+    bottom: 115px;
+    left: 50%;
+}
+p{
+    position: relative;
+    top: 60px;
+}
+p{
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.425);
+}
