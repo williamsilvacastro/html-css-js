@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel='stylesheet' href='./css/styles.css'>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>Formulário de cadastro</h1>
+            </div>
+        </div>
+        <form class="needs-validation" novalidate>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+                        <div class="invalid-feedback">
+                            campo obrigatório
+                        </div>
+                        <div class="valid-feedback">
+                            Tudo certo
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="mb-3">
+                        <label for="Sobrenome" class="form-label">Sobrenome</label>
+                        <input type="text" class="form-control" id="Sobrenome" placeholder="Digite seu Sobrenome" required>
+                        <div class="invalid-feedback">
+                            campo obrigatório
+                        </div>
+                        <div class="valid-feedback">
+                            Tudo certo
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                        <div class="invalid-feedback">
+                            campo obrigatório
+                        </div>
+                        <div class="valid-feedback">
+                            Tudo certo
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="mb-3">
+                        <label for="Senha" class="form-label">Senha</label>
+                        <input type="password" class="form-control" id="Senha" placeholder="digite sua senha" required>
+                        <div class="invalid-feedback">
+                            campo obrigatório
+                        </div>
+                        <div class="valid-feedback">
+                            Tudo certo
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex justify-content-end">
+                        <button type="submit" class="btn btn-success">Cadastrar</button>
+                    </div>
+
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+
+
+    <div class="container custom-container mt-5">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 custom-col-1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores totam officia delectus quis iste ea
+                eaque in hic sapiente natus veniam quo alias, eos maiores voluptas accusantium repellendus. Facilis, ut.
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 custom-col-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                A, accusamus. Veritatis, vel. Praesentium aliquam harum dolore ipsum delectus explicabo dignissimos
+                laudantium sit debitis sed quo officiis nesciunt nam, voluptas hic?</div>
+
+            <div class="col-12 col-md-6 col-lg-3 custom-col-3">
+                <div class="row justify-content-center text-center ">
+                    <div class="col-4 custom-col-4 pt-2">coluna 1</div>
+                    <div class="col-4 custom-col-1 pt-2">coluna 2</div>
+                    <div class="col-4 custom-col-2 pt-2">coluna 2</div>
+                </div>
+                <div class="row">
+                    <div class="col-4 custom-col-4">coluna1</div>
+                    <div class="col-4 custom-col-1">coluna 2</div>
+                    <div class="col-4 custom-col-2">coluna 2</div>
+                </div>
+                <div class="row">
+                    <div class="col-6 custom-col-4">coluna1</div>
+                    <div class="col-6 custom-col-1">coluna 2</div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 custom-col-4">
+                <button type="button" class="btn btn-outline-success btn-lg">Success</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

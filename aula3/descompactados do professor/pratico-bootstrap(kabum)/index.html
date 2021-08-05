@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KaBuM! - Explosão de Preços Baixos!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="shortcut icon" href="https://staticm.kabum.com.br/public/favicon.ico">
+</head>
+
+<body>
+    <!--begin header-->
+    <header class="py-4">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- canvas -->
+                <div class="col-6 col-md-1">
+                    <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                        aria-controls="offcanvasExample">
+                        <img src="./images/menu.svg" width="25">
+                    </button>
+
+                    <div class="offcanvas offcanvas-start container-canvas" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div>
+                                Some text as placeholder. In real life you can have the elements you have chosen. Like,
+                                text,
+                                images, lists, etc.
+                            </div>
+                            <div class="dropdown mt-3">
+                                <button class="btn dropdown-toggle custom-dropdown" type="button"
+                                    id="dropdownMenuButton" data-bs-toggle="dropdown">
+                                    Dropdown button
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- logo -->
+                <div class="col-6 col-md-2">
+                    <img src="./images/logo.png" width="130" alt="KaBuM! Tecnologia e Games"
+                        title="KaBuM! Tecnologia e Games">
+                </div>
+
+                <!-- search -->
+                <div class="col-12 col-md-5 my-2">
+                    <form class="d-flex">
+                        <input type="search" class="input-search" placeholder="Busque aqui" class="ps-2" />
+                        <button type="submit" class="btn-search"></button>
+                    </form>
+                </div>
+
+                <!-- login -->
+                <div class="col-5 col-md-2 login">
+                    Faça <a href="https://kabum.com.br/login"><b>Login</b></a> ou<br>
+                    crie seu <a href="https://kabum.com.br/login"><b>Cadastro</b></a>
+                </div>
+
+                <!-- links -->
+                <div class="col-6 col-md-2 links d-flex justify-content-around">
+                    <div class="sac"><img src="./images/sac.png" width="25"></div>
+                    <div class="wishlist"> <img src="./images/wishlist.png" width="25"></div>
+                    <div class="cart"> <img src="./images/cart.png" width="25"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--end header-->
+
+    <!--menu-->
+    <nav class="navbar navbar-expand-lg navbar-dark custom-menu">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" width="130" alt="KaBuM! Tecnologia e Games"
+                    title="KaBuM! Tecnologia e Games"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Todos os Departamentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Lançamentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Destaques</a>
+                    </li>
+                </ul>
+                <form class="menu-search">
+                    <input type="search" class="input-search" placeholder="Busque aqui" class="ps-2" />
+                    <button type="submit" class="btn-search"></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

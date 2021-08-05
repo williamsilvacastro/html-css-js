@@ -1,0 +1,179 @@
+*{
+    color:white;
+}
+.produtos{
+    width: 95%;
+}
+.categoria{
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.3;
+}
+.descri-categoria{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.3;
+}
+.produto{
+    background-color:#425164;
+    height: 200px;
+    border-radius: 8px;
+    display:flex;
+    flex-direction: column;
+    margin-top: 1%;
+    padding: 0;
+}
+.img-jogo1{
+    height: 45%;
+    border-radius: 8px;
+    
+}
+.img-jogo2{
+    height: 45%;
+    
+}
+.img-jogo3{
+    height: 45%;
+    
+}
+.img-jogo4{
+    height: 45%;
+    
+}
+.img-jogo5{
+    height: 45%;
+    
+}
+.descricao-jogo{
+    height: 55%;
+}
+.carrossel{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    align-items: center;
+}
+.botao-slide-left, .botao-slide-right{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    height: 508px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+.botao-slide-left{
+    left: -4%;
+    justify-content: flex-start;
+}
+.botao-slide-right{
+    right: -4%;
+    justify-content: flex-end;
+}
+.banner-principal{
+    width: 70%;
+    
+}
+.banner-secundario{
+    width: 30%;
+}
+.item-banner-secundario{
+    width: 100%;
+    height: 50%;
+}
+body{
+    background-color:rgb(21, 29, 39);
+}
+header{
+    font-family: "Open Sans",Arial,Helvetica;
+    border-bottom: 1px solid #1d2631;
+    background: #151d27;
+    box-shadow: 0 2px 7px 0 rgb(0 0 0 / 30%);
+    font-weight: bold;
+}
+.menu{
+    height: 100%;
+}
+.link{
+    display: block;
+    height: 100%;
+    color:white;
+    font-size: 20px;
+    
+    text-decoration: none;
+}
+.input-search{
+    background-color: #263241;
+    border: none;
+}
+.btn-search{
+    background-color: #263241;
+    border: none;
+    background-image: url(../imagens/lupa.png);
+    background-size: 26px;
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 26px;
+    display: inline-block;
+}
+.promo::before{
+    content: "";
+    background-image: url(../imagens/promocao-cinza.png);
+    background-size: 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.pc::before{
+    content: "";
+    background-image: url(../imagens/pc-cinza.png);
+    background-size: 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.playstation::before{
+    content: "";
+    background-image: url(../imagens/playstation-cinza.png);
+    background-size: 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.xbox::before{
+    content: "";
+    background-image: url(../imagens/xbox-cinza.png);
+    background-size: 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.nintendo::before{
+    content: "";
+    background-image: url(../imagens/nintendo-cinza.png);
+    background-size: 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.icon-brand{
+    margin-right: 10px;
+}
+.entrar::before{
+    content: "";
+    background-image: url(../imagens/Entrar-cinza.png);
+    background-size: 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+

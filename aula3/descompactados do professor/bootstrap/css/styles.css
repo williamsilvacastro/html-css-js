@@ -1,0 +1,23 @@
+.custom-container {
+    border: 1px solid;
+}
+
+.custom-col-1 {
+    background-color: royalblue;
+}
+
+.custom-col-2 {
+    background-color: rgb(116, 225, 65);
+}
+
+.custom-col-3 {
+    background-color: rgb(225, 65, 225);
+}
+
+.custom-col-4 {
+    background-color: rgb(225, 174, 65);
+}
+
+.custom-navbar {
+    background-color: salmon;
+}
