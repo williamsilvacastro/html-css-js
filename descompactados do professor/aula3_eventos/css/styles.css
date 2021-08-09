@@ -1,0 +1,13 @@
+.btn-comprar {
+    background-color: rgb(19, 187, 173);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.btn-comprar:hover {
+    opacity: 0.7;
+}
