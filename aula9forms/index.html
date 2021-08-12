@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='initial-scale=1'>
+    <title>formulários</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel='stylesheet' href='./css/style.css'>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+          <a class="navbar-brand" style="color: white" href="#">CRUD</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" style="color: white" aria-current="page" href="#">Clientes</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Novo Cliente</h1>
+        <hr>    
+        <form class="row">
+            <!-- primeira linha -->
+            <div class="col-7">
+                <label for="">Nome/Razão Social</label>
+                <input required class = "nome form-control" type="text"  placeholder="Nome Completo">
+                <div class="nome-erro" style="display: none;color:red;">Campo Obrigatorio</div>
+                <div class="nome-incorreto" style="display: none;color:red;">Preenchido incorretamente</div>
+                <div class="nome-certo" style="display: none;color:green;">OK</div>
+            </div>
+            <div class="col-3">
+                <label for="">CNPJ/CPF</label>
+                <input required class = "cpf form-control" type="text"  placeholder="CNPJ ou CPF">
+                <div class="cpf-erro" style="display: none;color:red;">Campo Obrigatorio</div>
+                <div class="cpf-incorreto" style="display: none;color:red;">Preenchido incorretamente</div>
+                <div class="cpf-certo" style="display: none;color:green;">OK</div>
+            </div>
+            <div class="col-2">
+                <Label for="">Data de Nascimento</Label>
+                <input required class = "dataNas form-control" type="date"  placeholder="10/08/2021">
+                <div class="dataNas-erro" style="display: none;color:red;">Campo Obrigatorio</div>
+                <div class="dataNas-incorreto" style="display: none;color:red;">Preenchido incorretamente</div>
+                <div class="dataNas-certo" style="display: none;color:green;">OK</div>
+            </div>
+            <!-- segunda linha -->
+            <div class="col-5">
+                <label for="">Endereço</label>
+                <input required class = "endereco form-control" type="text"  placeholder="Sua rua, numero">
+                <div class="endereco-erro" style="display: none;color:red;">Campo Obrigatorio</div>
+                <div class="endereco-incorreto" style="display: none;color:red;">Preenchido incorretamente</div>
+                <div class="endereco-certo" style="display: none;color:green;">OK</div>
+            </div>
+            <div class="col-3">
+                <label for="">Bairro</label>
+                <input required class = "bairro form-control" type="text"  placeholder="Bairro">
+                <div class="bairro-erro" style="display: none;color:red;">Campo Obrigatorio</div>
+                <div class="bairro-incorreto" style="display: none;color:red;">Preenchido incorretamente</div>
+                <div class="bairro-certo" style="display: none;color:green;">OK</div>
+            </div>
+            <div class="col-2">
+                <label for="">CEP</label>
+                <input required class = "cep form-control" type="text"  placeholder="Apenas numeros">
+                <div class="cep-erro" style="display: none;color:red;">Campo Obrigatorio</div>
+                <div class="cep-incorreto" style="display: none;color:red;">Preenchido incorretamente</div>
+                <div class="cep-certo" style="display: none;color:green;">OK</div>
+            </div>
+            <div class="col-2">
+                <label for="">Data de cadastro</label>
+                <input required class="form-control" type="text" value="10/08/2021" disabled>
+            </div>
+            <!-- terceira linha -->
+            <div class="col-3">
+                <label for="">municipio</label>
+                <input required class = "municipio form-control" type="text" placeholder="municipio">
+                <div class="municipio-erro" style="display: none;color:red;">Campo Obrigatorio</div>
+                <div class="municipio-incorreto" style="display: none;color:red;">Preenchido incorretamente</div>
+                <div class="municipio-certo" style="display: none;color:green;">OK</div>
+            </div>
+            <div class="col-2">
+                <label for="">Telefone</label>
+                <input required class = "telefone form-control" type="text" placeholder="Telefone">
+                <div class="telefone-erro" style="display: none;color:red;">Campo Obrigatorio</div>
+                <div class="telefone-incorreto" style="display: none;color:red;">Preenchido incorretamente</div>
+                <div class="telefone-certo" style="display: none;color:green;">OK</div>
+            </div>
+            <div class="col-3">
+                <label for="">Celular</label>
+                <input required class = "celular form-control" type="text" placeholder="celular">
+                <div class="celular-erro" style="display: none;color:red;">Campo Obrigatorio</div>
+                <div class="celular-incorreto" style="display: none;color:red;">Preenchido incorretamente</div>
+                <div class="celular-certo" style="display: none;color:green;">OK</div>
+            </div>
+            
+            <div class="col-2">
+                <label for="">Inscrição Estadual</label>
+                <input required class = "inscricao form-control" type="text" placeholder="Inscrição Estadual">
+                <div class="inscricao-erro" style="display: none;color:red;">Campo Obrigatorio</div>
+                <div class="inscricao-incorreto" style="display: none;color:red;">Preenchido incorretamente</div>
+                <div class="inscricao-certo" style="display: none;color:green;">OK</div>
+            </div>
+            <div class="col-2">
+                <label for="">UF</label>
+                <input required class = "unidade form-control" type="text" placeholder="UF">
+                <div class="unidade-erro" style="display: none;color:red;">Campo Obrigatorio</div>
+                <div class="unidade-incorreto" style="display: none;color:red;">Preenchido incorretamente</div>
+                <div class="unidade-certo" style="display: none;color:green;">OK</div>
+            </div>   
+            <button class="col-1 btn btn-info" type="submit">Salvar</button>
+            <button class="col-1 btn btn-info" type="reset">Cancelar</button>
+        </form>
+
+
+
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+     <script src='./js/app.js'></script>
+</body>
+</html>

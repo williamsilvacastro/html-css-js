@@ -1,0 +1,25 @@
+.logo, .navigation, .quadradinho, .quadrado, .footer{
+    background-color: grey;
+
+}
+.logo, .navigation{
+    height: 150px;
+    
+}
+.quadradinho{
+    display: block;
+    height: 200px;
+    width: 80%;
+    margin: 10px;
+}
+.quadrado{
+    display: block;
+    height: 250px;
+    width: 80%;
+    margin: 10px;
+}
+.footer{
+    height: 100px;
+}
+
+

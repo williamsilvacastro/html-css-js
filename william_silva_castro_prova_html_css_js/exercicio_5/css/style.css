@@ -1,0 +1,109 @@
+body{
+    margin:0;
+}
+.menu-lateral{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 20vw;
+    height: 100vh;
+    background-color: #424548;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 80vw;
+    height: 10vh;
+    background-color: #424548;
+
+}
+.mensagens{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mensagem{
+    color: white;
+    margin-left: 10px;
+}
+.pesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.icon-perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    background-color: #302f35;
+}
+.name{
+    color: rgb(30, 158, 30);
+    font-weight: bolder;
+    margin: 1px;
+}
+.info{
+    color: grey;
+    margin: 1px;
+}
+.menu-itens{
+    list-style-type: none;
+    padding: 0;
+}
+.menu-itens li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    width: 25vw;
+    color: white;
+    font-weight: bold;
+}
+.menu-itens li:hover{
+    color: rgb(30, 158, 30);
+}
+.menu-itens li::after{
+    content: '';
+    background-image: url(../imgs/seta.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+
+}
+.menu-itens li::after:hover{
+    background-image: url(../imgs/circle.png);
+}
+.pesquisar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+}
+.pesquisador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-pesquisar{
+    display: block;
+    height: 35px;
+    border-radius: 15px;
+    border:none;
+    margin-right: 4px;
+}
+.pesquisar:hover{
+    border: 1px solid gray;
+}

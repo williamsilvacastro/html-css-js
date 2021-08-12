@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='initial-scale=1'>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel='stylesheet' href='./css/style.css'>
+</head>
+<body>
+    <header>
+        <!-- As a heading -->
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container">
+                <span class="navbar-brand mb-0 h1">Formulário Receita</span>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        
+        <form class="row">
+            <div class="col-3">
+                <label for="">CRM</label>
+                <input type="text" class="crm form-control" required>
+                <div class="crm-valid" style="display: none; color: green" >OK</div>
+                <div class="crm-invalid" style="display: none; color: red;">invalido</div>
+            </div>
+            <div class="col-6">
+                <label for="">Nome do Médico</label>
+                <input type="text" class="nome-medico form-control" required>
+                <div class="nome-medico-valid" style="display: none; color: green" >OK</div>
+                <div class="nome-medico-invalid" style="display: none; color: red;">invalido</div>
+            </div>
+            <div class="col-3">
+                <label for="">Data da receita</label>
+                <input type="date" class="dta-receita form-control" required>
+                <div class="dta-receita-valid" style="display: none; color: green" >OK</div>
+                <div class="dta-receita-invalid" style="display: none; color: red;">invalido</div>
+            </div>
+            <div class="col-3">
+                <label for="">CPF</label>
+                <input type="text" class="cpf form-control" required>
+                <div class="cpf-valid" style="display: none; color: green" >OK</div>
+                <div class="cpf-invalid" style="display: none; color: red;">invalido</div>
+            </div>
+            <div class="col-5">
+                <label for="">Nome do paciente</label>
+                <input type="text" class="nome-paciente form-control" required>
+                <div class="nome-paciente-valid" style="display: none; color: green" >OK</div>
+                <div class="nome-paciente-invalid" style="display: none; color: red;">invalido</div>
+            </div>
+            <div class="col-2">
+                <label for="">Sexo</label>
+                <input type="text" class="sexo form-control" required>
+                <div class="sexo-valid" style="display: none; color: green" >OK</div>
+                <div class="sexo-invalid" style="display: none; color: red;">invalido</div>
+            </div>
+            <div class="col-2">
+                <label for="">Data de Nascimento</label>
+                <input type="text" class="dta-nas form-control" required>
+                <div class="dta-nas-valid" style="display: none; color: green" >OK</div>
+                <div class="dta-nas-invalid" style="display: none; color: red;">invalido</div>
+            </div>
+            <div class="col-3">
+                <label for="">Quantidade de Caixas</label>
+                <input type="text" class="qtd form-control" required>
+                <div class="qtd-valid" style="display: none; color: green" >OK</div>
+                <div class="qtd-invalid" style="display: none; color: red;">invalido</div>
+            </div>
+            <div class="col-3">
+                <label for="">Tipo de envio</label>
+                <select class="form-select">
+                    <option selected value="">Selecione tipo de envio</option>
+                    <option value="anexar">Anexar Arquivo</option>
+                    <option value="wpp">WhatsApp</option>
+                    <option value="email">E-mail</option>
+                  </select>
+            </div>
+            <div class="col-12">
+                <br>
+                <button type="submit" class="btn btn-success" >Enviar</button>
+                <button type="reset" class="btn btn-warning">Cancelar</button>
+            </div>
+            
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src='./js/app.js'></script>
+</body>
+</html>

@@ -28,7 +28,7 @@ function fundoVermelho(){
     this.style.backgroundColor="red"
 }
 document.querySelector('body').addEventListener("click",fundoVermelho)
-document.querySelector('body').removeEventListener("click",fundoVermelho)
+// document.querySelector('body').removeEventListener("click",fundoVermelho)
 let btnEnviar = elem.getElem(".btn-Enviar")
 btnEnviar.addEventListener('click', function(event){
     event.preventDefault()

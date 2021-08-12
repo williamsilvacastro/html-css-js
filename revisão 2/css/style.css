@@ -1,0 +1,30 @@
+.item-menu-lateral{
+    list-style: none;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.menu-lateral{
+    background-color: #2d323e;
+    display: block;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 25%;
+    height: 100%;
+}
+.menu-lateral li{
+    color: white;
+}
+.dashboard{
+    color: grey;
+}
+.main{
+    position:relative;
+    right: 0px;
+    top: 0px;
+    display: block;
+    width: 75%;
+    height: 100%;
+}

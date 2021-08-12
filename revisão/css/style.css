@@ -1,0 +1,22 @@
+
+
+.logo, .nav, .banner, .side-bar, .body-area, .pe{
+    background-color: grey;
+    border: 1px solid black;
+    margin: 10px 0;
+}
+.side-bar, .body-area{
+    height: 400px;
+}
+.logo{
+    height: 100px;
+}
+.nav{
+    height: 50px;
+}
+.banner{
+    height: 150px;
+}
+.pe{
+    height: 50px;
+}
